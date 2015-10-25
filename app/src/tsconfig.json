@@ -1,0 +1,29 @@
+{
+    "version": "1.5.0-alpha",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./HyperionCtrl.ts",
+        "./ResultCtrl.ts",
+        "./hyperion/HyperionService.ts",
+        "./hyperion/config.ts",
+        "./hyperion/led.ts",
+        "./hyperion/resources.ts",
+        "./hyperion/tv.ts",
+        "./main.ts",
+        "./types.ts"
+    ]
+}
